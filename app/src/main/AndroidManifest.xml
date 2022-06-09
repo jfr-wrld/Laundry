@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.ahmfarisi.laundrypalembang">
+    package="com.uaspapb.laundry">
 
     <uses-permission android:name="android.permission.INTERNET" />
 
@@ -12,12 +12,12 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true">
-        <activity android:name=".Activity.UbahActivity"
-            android:parentActivityName=".Activity.MainActivity"></activity>
+        <activity android:name="com.uaspapb.laundry.Activity.UbahActivity"
+            android:parentActivityName="com.uaspapb.laundry.Activity.MainActivity"></activity>
         <activity
-            android:name=".Activity.TambahActivity"
-            android:parentActivityName=".Activity.MainActivity" />
-        <activity android:name=".Activity.MainActivity">
+            android:name="com.uaspapb.laundry.Activity.TambahActivity"
+            android:parentActivityName="com.uaspapb.laundry.Activity.MainActivity" />
+        <activity android:name="com.uaspapb.laundry.Activity.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
